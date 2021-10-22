@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/carlosdizx/node-examples/issues"
   },
-  "homepage": "https://github.com/carlosdizx/node-examples#readme"
+  "homepage": "https://github.com/carlosdizx/node-examples#readme",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
 }
