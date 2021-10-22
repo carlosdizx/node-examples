@@ -1,6 +1,6 @@
 module.exports = (x, y, callback) => {
   if (x <= 0 || y <= 0) {
-    setTimeout(
+    setTimeout(()=>
       callback(
         new Error("rectangle dimensions should be greater than zero"),
         null
@@ -8,7 +8,7 @@ module.exports = (x, y, callback) => {
       2000
     );
   } else {
-    setTimeout(
+    setTimeout(()=>
       callback(null, {
         perimeter: () => 2 * (x + y),
         area: () => x * y,

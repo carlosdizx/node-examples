@@ -6,10 +6,12 @@ function solveRect(l, b) {
     if (err) {
       return console.log("Error: " + err.message);
     }
-    console.log("The area of the rectangle is " + rect.area());
-    console.log("The perimeter of the rectangle is " + rect.perimeter());
+    else{
+      console.log("The area of the rectangle is " + rect.area());
+      console.log("The perimeter of the rectangle is " + rect.perimeter());
+    }
   });
-  console.log("This statement is after the call to rect()")
+  console.log("This statement is after the call to rect")
 }
 solveRect(2, 4);
 solveRect(3, 5);
