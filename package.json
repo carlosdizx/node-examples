@@ -8,5 +8,13 @@
     "start": "node index"
   },
   "author": "Carlos Díaz",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdizx/node-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosdizx/node-examples/issues"
+  },
+  "homepage": "https://github.com/carlosdizx/node-examples#readme"
 }
